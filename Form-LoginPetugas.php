@@ -37,26 +37,20 @@
             </div>
 
             <div class="card card-primary">
-              <div class="card-header"><h4>Login sebagai siswa</h4></div>
+              <div class="card-header"><h4>Login sebagai Admin/Petugas</h4></div>
 
               <div class="card-body">
-                <form method="POST" action="cek_loginSiswa.php" class="needs-validation" novalidate="">
+                <form method="POST" action="cek_login.php" class="needs-validation" novalidate="">
                   <div class="form-group">
-                    <label for="email">Nisn</label>
-                    <input id="nisn" type="nisn" class="form-control" name="nisn" tabindex="1" required autofocus>
-                    <div class="invalid-feedback">
-                      Please fill in your email
-                    </div>
+                    <label for="email">Username</label>
+                    <input id="username" type="username" class="form-control" name="username" tabindex="1" required autofocus>
                   </div>
 
                   <div class="form-group">
                     <div class="d-block">
-                    	<label for="password" class="control-label">Nis</label>
+                    	<label for="password" class="control-label">Password</label>
                     </div>
-                    <input id="nis" type="nis" class="form-control" name="nis" tabindex="2" required>
-                    <div class="invalid-feedback">
-                      please fill in your password
-                    </div>
+                    <input id="password" type="password" class="form-control" name="password" tabindex="2" required>
                   </div>
 
                   <div class="form-group">
@@ -65,13 +59,10 @@
                     </button>
                   </div>
                 </form>
-                <div class="text-center mt-4 mb-3">
-                  <div class="text-job text-muted">Login Sebagai Petugas/Admin</div>
-                </div>
                 <div class="form-group">
-                  <a href="Form-LoginPetugas.php">
+                    <a href="Form-Login.php">
                     <button type="submit" class="btn btn-warning btn-lg btn-block" tabindex="4">
-                      Petugas/Admin
+                      Kembali
                     </button>
                   </div>
             <div class="simple-footer">

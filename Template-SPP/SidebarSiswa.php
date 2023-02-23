@@ -8,18 +8,7 @@
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
-
-            <li><a class="nav-link" href="Dashboard-Admin.php"><i class="fas fa-fire"></i> <span>Dashboard</span></a></li>
-
-            <li><a class="nav-link" href="CRUD-Petugas.php"><i class="fas  fa-address-card"></i> <span>Crud Data Petugas</span></a></li>
-
-            <li><a class="nav-link" href="CRUD-Siswa.php"><i class="fas fa-address-card"></i> <span>Crud Data Siswa</span></a></li>
-
-            <li><a class="nav-link" href="CRUD-Kelas.php"><i class="fas fa-address-card"></i> <span>Crud Data Kelas</span></a></li>
-
-            <li><a class="nav-link" href="CRUD-SPP.php"><i class="fas fa-file-invoice-dollar"></i> <span>Crud Data SPP</span></a></li>
-
-            <li><a class="nav-link" href="Entri-Transaksi.php"><i class="fas fa-dollar-sign"></i> <span>Entri Transaksi</span></a></li>
+          
 
             <li><a class="nav-link" href="Histori-Pembayaran.php"><i class="fas fa-history"></i> <span>Histori Pembayaran</span></a></li>
 
